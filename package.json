@@ -1,24 +1,24 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Repository for the A-CSD course in July 2022",
+  "description": "Repository for the A-CSD course in December 2023",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "jest ./tests/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scrumadventures-csd/ACSD20220705.git"
+    "url": "git+https://github.com/scrumadventures-csd/ACSD20231211.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scrumadventures-csd/ACSD20220705/issues"
+    "url": "https://github.com/scrumadventures-csd/ACSD20231211/issues"
   },
-  "homepage": "https://github.com/scrumadventures-csd/ACSD20220705#readme",
+  "homepage": "https://github.com/scrumadventures-csd/ACSD20231211#readme",
   "dependencies": {
     "@cucumber/cucumber": "^8.4.0",
     "axios": "^0.27.2",
@@ -26,6 +26,7 @@
     "express": "^4.18.1",
     "jest": "^28.1.2",
     "js-unit": "^1.1.3",
+    "memory-cache": "^0.2.0",
     "nodemon": "^2.0.19"
   }
 }

@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { registerGame } = require("../../../functions/register");
 const { getRoll } = require("../../../functions/roll");
-const { getGameScore, getFrameScore } = require("../../../functions/score");
+//const { getGameScore, getFrameScore } = require("../../../functions/score");
 const mCache = require('memory-cache');
 const {Game, Frame, Roll} = require("../../../game/game");
 

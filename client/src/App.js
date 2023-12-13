@@ -57,7 +57,7 @@ function App() {
             {!gameStarted && <>
                 <input size={50} onChange={(e) => setName(e.target.value)}
                        type="text"
-                       placeholder="Enter your Name and start the Party !!"
+                       placeholder="Name your game and start the Party !!"
                        required
                 />
                 <>&nbsp;</>
@@ -65,8 +65,8 @@ function App() {
             </>
             }
 
-            {gameStarted && <p>Welcome {name} !</p>}
-            {gameStarted && <p>Your game has unique id which  {gameId}</p>}
+            {gameStarted && <p>Welcome!</p>}
+            {gameStarted && <p>Your game, {name}, has unique id which  {gameId}</p>}
             {gameStarted &&
                 <>
                     <button onClick={rollOneBall}>Roll Ball</button>

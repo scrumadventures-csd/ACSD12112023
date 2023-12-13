@@ -4,7 +4,7 @@ import {useState} from 'react';
 import bowling from '../src/bowling.png';
 
 // Configuration parameters
-let myLocalMode = true;
+let myLocalMode = false;
 let myClassDate = "20231211";
 let myServerRoot = (myLocalMode)
     ? "http://localhost:5000"

@@ -8,7 +8,7 @@ let myLocalMode = false;
 let myClassDate = "20231211";
 let myServerRoot = (myLocalMode)
     ? "http://localhost:5000"
-    : `https://acsd${myClassDate}.herokuapp.com`;
+    : `https://acsd${myClassDate}-06363e0abe68.herokuapp.com`;
 
 
 function App() {

@@ -71,6 +71,16 @@ function App() {
                 <>
                     <button onClick={rollOneBall}>Roll Ball</button>
                     {ballRolled && <p>Frame n°:  {frameNumber}</p>}
+                    {ballRolled && 
+                    <table>
+                    <tr>
+                        <th>Frame {frameNumber}</th>
+                    </tr>
+                    <tr>
+                        <td>Score {myPins}</td>
+                    </tr>
+                    </table>
+                    }
                     {ballRolled && <p>Balle n°:  {ballNumber}</p>}
                     {ballRolled && <p>You got {myPins} That's a total of {ballPins} pins ! </p>}
                     {ballRolled && <p>Your total in frame is {totalInframe}</p>}

@@ -71,13 +71,28 @@ function App() {
                 <>
                     <button onClick={rollOneBall}>Roll Ball</button>
                     {ballRolled && <p>Frame n°:  {frameNumber}</p>}
+                    
                     {ballRolled && 
                     <table>
                     <tr>
-                        <th>Frame {frameNumber}</th>
+                        <th></th>
+                        <th>Frame 1</th>
                     </tr>
                     <tr>
-                        <td>Score {myPins}</td>
+                        <td>Ball1</td>
+                        <td>{myPins}</td>
+                    </tr>
+                    <tr>
+                        <td>Ball2</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>{totalInframe}</td>
+                    </tr>
+                    <tr>
+                        <td>Game</td>
+                        <td>{pins}</td>
                     </tr>
                     </table>
                     }
@@ -91,5 +106,4 @@ function App() {
         </div>
     );
 }
-
 export default App;
